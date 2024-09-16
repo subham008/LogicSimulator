@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_corner_background"
+    android:backgroundTint="@color/green_600"
+    android:id="@+id/toast_success_layout"
+    >
+
+    <TextView
+        android:id="@+id/toast_success_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOME ERROR OCCURED"
+        android:textColor="@color/white"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="15sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        />
+</FrameLayout>

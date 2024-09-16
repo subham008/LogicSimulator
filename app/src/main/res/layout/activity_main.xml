@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainframe"
+    android:background="#303036"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70sp"  
+        android:text="Project"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        />
+
+
+    <ListView
+        android:id="@+id/project_list"
+        android:layout_width="330sp"
+        android:layout_height="450sp"
+        android:dividerHeight="10.0sp"
+        android:background="#303036"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150sp"
+        android:orientation="vertical"
+        />
+    <TextView
+        android:id="@+id/no_projects_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Projects"
+        android:textColor="@color/grey"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imp_button"
+        android:background="@color/dark_grey"
+        android:src="@drawable/import_icon"
+        android:layout_marginLeft="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_gravity="bottom|left"
+        app:tint="@color/white"
+        />
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Ad"
+        android:textColor="@color/cyan_500"
+        android:layout_marginLeft="60sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="Ad"
+        android:textColor="@color/cyan_500"
+        android:layout_marginRight="60sp"
+        /> -->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_button"
+        android:layout_marginRight="50sp"
+        android:src="@drawable/add_icon"
+        android:background="@color/dark_grey"
+        android:layout_marginBottom="20sp"
+        android:layout_gravity="bottom|right"
+        app:tint="@color/white"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting_button"
+        android:layout_marginBottom="20sp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/setting_icon"
+        android:background="@color/dark_grey"
+        app:tint="@color/white"
+        />
+</FrameLayout>

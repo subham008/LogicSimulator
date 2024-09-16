@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/round_error_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/error_icon"
+        android:backgroundTint="#00000000"
+        app:tint="@color/white"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invalid File Format"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Can,t open this file, The data format inside this file is invalid , Ensure you imported right file "
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="20sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        >
+        <Button
+            android:id="@+id/keep_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red_600"
+            android:text="Keep"
+            />
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red_600"
+            android:text="Delete"
+            android:layout_marginRight="30sp"
+            />
+    </LinearLayout>
+</LinearLayout>

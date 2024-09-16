@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_corner_background"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/make_number_tag"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:text="input/output"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/make_number_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9076678899"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/make_number_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cyan_800"
+        android:text="save"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

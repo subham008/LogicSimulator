@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/round_corner_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IC Elements"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        />
+
+    <ListView
+        android:id="@+id/integrated_list_view"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        />
+   <LinearLayout
+       android:id="@+id/integrated_no_item_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No IC Found"
+        android:textColor="@color/grey"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="To make a project IC just add pins in ic using Button on the top written Add pin to ic"
+           android:textColor="@color/yellow_200"
+           android:textAlignment="center"
+           android:layout_marginBottom="10sp"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Any project added  1 or more pins to ic will considered as IC and will be the part of this list"
+           android:textColor="@color/yellow_200"
+           android:textAlignment="center"
+           android:layout_marginBottom="30sp"
+           />
+   </LinearLayout>
+</LinearLayout>

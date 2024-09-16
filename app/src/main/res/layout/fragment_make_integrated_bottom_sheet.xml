@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/dark_grey"
+    android:orientation="vertical"
+    tools:context=".make_integrated_bottom_sheet">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Integrated Circuit"
+       android:textColor="@color/white"
+       android:textSize="20sp"
+       />
+
+    <FrameLayout
+        android:id="@+id/ic_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/no_pin_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Pins were added"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/label_pin_suggestion_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To change Pin name just use label pin button on Top of the editor"
+        android:textColor="@color/yellow_200"
+        />
+    <ListView
+        android:id="@+id/pin_list"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_gravity="center_horizontal"
+        android:nestedScrollingEnabled="true"
+        android:dividerHeight="5.0sp"
+        android:orientation="vertical"
+        android:layout_marginTop="15sp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_corner_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/sorry_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sorry !!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pins of a IC cannot be assined as a IC Pin and also if you import this project as ic in another project , all IC gates will not be the part of that IC Component, all other component will be , This IC inside IC feature will be coming soon\n\nThank you\n"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/pin_warning_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:backgroundTint="@color/cyan_800"
+        android:textColor="@color/white"
+        />
+</LinearLayout>

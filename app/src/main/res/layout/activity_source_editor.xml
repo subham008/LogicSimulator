@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_grey"
+    tools:context=".SourceEditorActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:background="@color/dark_grey"
+        >
+        <TextView
+            android:id="@+id/source_filename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sample"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20sp"
+            />
+        <ImageButton
+            android:id="@+id/source_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/save_icon"
+            android:backgroundTint="#00000000"
+            app:tint="@color/white"
+            android:layout_marginRight="20sp"
+            android:layout_gravity="right|center_vertical"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/source_editor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
