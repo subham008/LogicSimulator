@@ -17,11 +17,14 @@
 
 <table>
   <tr>
-   <td><img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/simulate.png"></td>
-   <td><img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/component_list.png"></td>
-   <td><img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/app_setting.png"></td>
-   <td><img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/customize_component.png"></td>
+   <td><img  width="200" src="./App_Screenshots/edited_screenshots/simulate.png"></td>
+   <td><img  width="200" src="./App_Screenshots/edited_screenshots/component_list.png"></td>
+   <td><img width="200" src="./App_Screenshots/edited_screenshots/app_setting.png"></td>
+   <td><img width="200" src="./App_Screenshots/edited_screenshots/customize_component.png"></td>
    </tr>
 </table>
+
+
+
 
 
