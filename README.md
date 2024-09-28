@@ -1,5 +1,5 @@
-<div align="center">
-  <img src="./app/src/main/app_icon-playstore.png" alt="LogicSimulator" width="300" height="300px" style="border-radius: 15px;"/>
+<div align="center" style="border-radius: 15px;">
+  <img src="./app/src/main/app_icon-playstore.png" alt="LogicSimulator" width="200px" height="200px"/>
 </div>
 <div align = "center">
   <h2>LogicSimulator</h2>
@@ -15,6 +15,11 @@
 
 <h2> Logic Simulator is a Android app to simulate Logic Gates connection </h2>
 
+
+<img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/simulate.png">
+<img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/component_list.png">
+<img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/app_setting.png">
+<img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/customize_component.png">
 
 
 
