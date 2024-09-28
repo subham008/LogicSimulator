@@ -25,6 +25,8 @@
 </table>
 
 
+<h2>Buiding : Android Studio</h2>
+Just clone the rpeo -> open using Android Studio -> Build
 
 
 
