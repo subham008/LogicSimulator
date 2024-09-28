@@ -15,11 +15,13 @@
 
 <h2> Logic Simulator is a Android app to simulate Logic Gates connection </h2>
 
-
-<img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/simulate.png">
-<img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/component_list.png">
-<img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/app_setting.png">
-<img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/customize_component.png">
-
+<table>
+  <tr>
+   <td><img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/simulate.png"></td>
+   <td><img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/component_list.png"></td>
+   <td><img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/app_setting.png"></td>
+   <td><img style="width: 45%; height: 100%; padding-right: 10px" src="./App_Screenshots/edited_screenshots/customize_component.png"></td>
+   </tr>
+</table>
 
 
