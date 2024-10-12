@@ -29,7 +29,8 @@
 Just clone the rpeo -> open using Android Studio -> Build
 
 <h2>*NOTE</h2>
-This project will be migrated to Jetpack compose(under developement)
+This project will be migrated to Jetpack compose(under developement),
+Jetpack project will support Android , ios , Windows , Linux , MacOS
 
 
 
